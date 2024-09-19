@@ -1,0 +1,5 @@
+package com.technician.service;
+
+public class TechnicianSignupService {
+
+}

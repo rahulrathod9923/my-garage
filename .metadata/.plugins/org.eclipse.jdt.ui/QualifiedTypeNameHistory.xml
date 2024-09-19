@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="com.customer.serivce.SignUpSerivce"/>
+    <fullyQualifiedTypeName name="com.customer.repo.SignUpRepo"/>
+    <fullyQualifiedTypeName name="com.customer.serivce.LoginService"/>
+    <fullyQualifiedTypeName name="com.customer.repo.LoginRepo"/>
+    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="com.customer.entities.SignUp"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.Builder"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="com.technician.repo.TechnicianSignUpRepo"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="com.technician.repo.TechnicianLoginRepo"/>
+    <fullyQualifiedTypeName name="com.technician.service.TechnicianSignupService"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.technician.service.TechnicianLoginService"/>
+    <fullyQualifiedTypeName name="com.technician.entities.Technician"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.server.EnableEurekaServer"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.CrossOrigin"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration"/>
+    <fullyQualifiedTypeName name="org.springframework.web.reactive.config.CorsRegistry"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.client.discovery.EnableDiscoveryClient"/>
+</qualifiedTypeNameHistroy>

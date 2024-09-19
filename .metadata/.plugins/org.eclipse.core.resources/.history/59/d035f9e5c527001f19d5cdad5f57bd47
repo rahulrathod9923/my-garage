@@ -1,0 +1,14 @@
+package com.customer.repo;
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.customer.entities.SignUp;
+
+
+public interface SignUpRepo extends  JpaRepository<SignUp, String>{
+
+	Optional<SignUp> findByEmail(String email);
+
+}

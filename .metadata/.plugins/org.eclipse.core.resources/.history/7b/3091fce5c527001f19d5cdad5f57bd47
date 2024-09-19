@@ -1,0 +1,28 @@
+package com.customer.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.customer.entities.SignUp;
+import com.customer.repo.SignUpRepo;
+
+@Service
+public class SignUpService {
+
+	@Autowired
+	SignUpRepo signUpRepo;
+	
+	 public String registerNewUser(SignUp signUp) {
+	        Optional<SignUp> existingUser = signUpRepo.findByEmail(signUp.getEmail());
+	        
+	        if (existingUser.isPresent()) {
+	            return "Already registered";
+	        } else {
+	            signUpRepo.save(signUp);
+	            return "Registration successful";
+	        }
+	    }
+
+}

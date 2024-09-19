@@ -1,0 +1,70 @@
+
+body {
+    background-image: url('https://res.cloudinary.com/yourmechanic/image/upload/dpr_auto,f_auto,q_auto/v1/article_images/1_How_to_Deal_With_an_Overheated_Engine_Show_illustration_of_a_person_on_the_phone_standing');
+    background-size: auto 945px;
+    /* background-size: 100% 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+textarea {
+    resize: none;
+}
+
+h2 {
+    margin-left: 50px;
+    color: aqua;
+    /* padding-top: -20px; */
+}
+
+select {
+    width: 170px; 
+    background-color: rgb(237, 248, 218);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea[type="text"] {
+    background-color: rgb(237, 248, 218);
+}
+
+.submit {
+    margin-left: 20px;
+    border: 1px solid rgb(11, 12, 11);
+    margin-top: 40px;
+    background-color: rgb(176, 245, 176);
+    border-radius: 10px;
+}
+
+.reset {
+    margin-left: 80px;
+    border: 1px solid rgb(11, 12, 11);
+    margin-top: 40px;
+    background-color: rgb(245, 175, 175);
+    border-radius: 10px;
+}
+
+.container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 20px;
+    width: 500px;
+    height: auto;
+    margin: 100px auto auto auto;
+    margin-top: 200px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 20px rgba(221, 240, 176, 0.2);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+    /* text-align: center; */
+    align-items: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(240, 219, 222);
+    box-sizing: border-box;
+    /* background-image: linear-gradient(to bottom, #ffcccc, #cc99ff); */
+    background-color: transparent;
+    border: 1px solid rgb(44, 42, 42);
+}

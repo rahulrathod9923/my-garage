@@ -1,0 +1,19 @@
+package com.customer.serivce;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.customer.entities.SignUp;
+import com.customer.repo.LoginRepo;
+
+@Service
+public class LoginService {
+	
+	@Autowired
+	LoginRepo loginRepo;
+
+	public SignUp login(String email) {
+		return loginRepo.findById(email);
+	}
+
+}

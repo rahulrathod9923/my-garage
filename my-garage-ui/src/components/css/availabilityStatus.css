@@ -1,0 +1,47 @@
+body {
+    background-image: url('https://media.istockphoto.com/id/1294266631/photo/mechanic-car-service-auto-garage-in-automotive-mobile-center-technician-workshop-repair.jpg?s=612x612&w=0&k=20&c=VXIvofre08-Hw2VngyIEO8CKDuL-nPQVKeOqpRCjXmU=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400; /* Adjusted font weight */
+    width: 300px; /* Adjusted width */
+    height: auto;
+    margin: 100px auto; /* Simplified margin */
+    background-color: rgba(255, 255, 255, 0.9); /* Adjusted background color with opacity */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.2); /* Adjusted box shadow */
+    text-align: center; /* Centered text */
+    color: rgb(18, 13, 27); /* Adjusted text color */
+    box-sizing: border-box;
+    border: 1px solid rgb(44, 42, 42);
+}
+
+.available {
+    margin-top: 20px; /* Adjusted margin */
+    background-color: rgb(176, 245, 176);
+    border: 1px solid rgb(11, 12, 11);
+    border-radius: 10px;
+    padding: 10px 20px; /* Adjusted padding */
+    cursor: pointer;
+    color: rgb(18, 13, 27); /* Adjusted text color */
+}
+
+.notAvailable {
+    margin-top: 20px; /* Adjusted margin */
+    background-color: rgb(245, 175, 175);
+    border: 1px solid rgb(11, 12, 11);
+    border-radius: 10px;
+    padding: 10px 20px; /* Adjusted padding */
+    cursor: pointer;
+    color: rgb(18, 13, 27); /* Adjusted text color */
+}
+
+h3 {
+    color: rgb(18, 13, 27);
+}

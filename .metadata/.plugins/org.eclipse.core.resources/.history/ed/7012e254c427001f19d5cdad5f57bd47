@@ -1,0 +1,5 @@
+package com.technician.repo;
+
+public interface TechnicianSignUpRepo {
+
+}

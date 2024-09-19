@@ -1,0 +1,5 @@
+package com.technician.entities;
+
+public class Technician {
+
+}

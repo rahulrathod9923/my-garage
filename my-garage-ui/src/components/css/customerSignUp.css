@@ -1,0 +1,64 @@
+body {
+    background-image: url('https://res.cloudinary.com/yourmechanic/image/upload/dpr_auto,f_auto,q_auto/v1/article_images/1_How_to_Deal_With_an_Overheated_Engine_Show_illustration_of_a_person_on_the_phone_standing');
+    background-size: cover; /* Adjusted to cover entire viewport */
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(240, 219, 222); /* Adjusted text color for better visibility */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    background-color: rgb(237, 248, 218);
+    width: calc(100% - 12px); /* Adjusted width to accommodate padding */
+    padding: 6px; /* Added padding for better input field appearance */
+    border: 1px solid #ccc; /* Added border for input fields */
+    border-radius: 4px; /* Rounded corners for input fields */
+    margin-bottom: 10px; /* Spacing between input fields */
+}
+
+.error {
+    color: red;
+    margin-top: 4px; /* Adjusted margin for error message */
+}
+
+.submit,
+.login,
+.reset {
+    width: 50px; /* Adjusted width of buttons for consistency */
+    padding: 10px; /* Added padding to buttons */
+    margin-top: 20px; /* Spacing between buttons */
+    background-color: rgb(176, 245, 176);
+    border: 1px solid rgb(11, 12, 11);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit {
+    margin-right: 10px; /* Adjusted margin for submit button */
+}
+
+.login {
+    margin-left: 10px; /* Adjusted margin for login button */
+}
+
+.reset {
+    margin-left: -10px; /* Adjusted margin for reset button */
+}
+
+h2 {
+    color: aqua;
+    text-align: center; /* Centered heading */
+}
+
+.container {
+    width: 500px;
+    margin: 100px auto; /* Centered container vertically and horizontally */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 20px rgba(221, 240, 176, 0.2);
+    font-size: 20px;
+    text-align: center; /* Centered text within container */
+}

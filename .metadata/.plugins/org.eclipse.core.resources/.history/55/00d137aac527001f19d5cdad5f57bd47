@@ -1,0 +1,13 @@
+package com.technician.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.technician.repo.TechnicianSignUpRepo;
+
+@Service
+public class TechnicianSignupService {
+
+	@Autowired
+	TechnicianSignUpRepo technicianSignUpRepo;
+}

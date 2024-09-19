@@ -1,0 +1,19 @@
+package com.customer.serivce;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.customer.entities.SignUp;
+import com.customer.repo.SignUpRepo;
+
+@Service
+public class SignUpService {
+
+	@Autowired
+	SignUpRepo signUpRepo;
+	
+	public SignUp registerNewUSer(SignUp signUp) {
+		return signUpRepo.save(signUp);
+	}
+
+}
