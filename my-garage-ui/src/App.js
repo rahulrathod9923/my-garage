@@ -14,6 +14,7 @@ import TechnicianLogin from './components/TechnicianLogin';
 import CustomerLogin from './components/CustomerLogin';
 
 function App() {
+  // this is a comment on local branch
   return (
     <Router>
       <div className="App">
